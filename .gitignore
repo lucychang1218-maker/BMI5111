@@ -1,0 +1,7 @@
+*.npz
+*.h5
+*.hdf5
+*.npy
+*.fna
+*.gff
+data/
