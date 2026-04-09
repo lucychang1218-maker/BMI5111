@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-03-26 12:02:48",
+  "updated_at": "2026-03-26 15:19:53",
+  "task_name": "tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean",
+  "cell": "tB",
+  "type": "P-E",
+  "frac_tag": "frac10_clean",
+  "ngram": 5,
+  "annotation_size": 13,
+  "learning_rate": 2e-05,
+  "dropout": 0.25,
+  "loss_name": "weighted_bce",
+  "monitor": "val_pr_auc",
+  "folds": {
+    "fold_0": {
+      "time": "2026-03-26 12:27:05",
+      "ckpt_path": "/content/drive/MyDrive/LOGO_outputs/checkpoints_epi_clean/frac10_clean/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean/best_model_tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean_frac10_clean_fold0.h5",
+      "prediction_paths": {
+        "y_true_npy": "/content/drive/MyDrive/LOGO_outputs/metrics_epi_clean/metrics/frac10_clean/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean/predictions/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean_frac10_clean_fold0_y_true.npy",
+        "y_score_npy": "/content/drive/MyDrive/LOGO_outputs/metrics_epi_clean/metrics/frac10_clean/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean/predictions/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean_frac10_clean_fold0_y_score.npy"
+      },
+      "learning_rate": 2e-05,
+      "dropout": 0.25,
+      "loss_name": "weighted_bce",
+      "monitor": "val_pr_auc",
+      "metrics": {
+        "loss": 1.3567763566970825,
+        "acc": 0.7131147384643555,
+        "precision": 0.08870967477560043,
+        "recall": 0.5365853905677795,
+        "f1": 0.1454523354768753,
+        "auc": 0.6854768547685477,
+        "auprc": 0.16363202653231482,
+        "raw_list": [
+          1.3567763566970825,
+          0.7131147384643555,
+          0.08870967477560043,
+          0.5365853905677795,
+          0.685409426689148,
+          0.16293448209762573,
+          0.1454523354768753
+        ]
+      }
+    },
+    "fold_1": {
+      "time": "2026-03-26 15:19:53",
+      "ckpt_path": "/content/drive/MyDrive/LOGO_outputs/checkpoints_epi_clean/frac10_clean/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean/best_model_tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean_frac10_clean_fold1.h5",
+      "prediction_paths": {
+        "y_true_npy": "/content/drive/MyDrive/LOGO_outputs/metrics_epi_clean/metrics/frac10_clean/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean/predictions/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean_frac10_clean_fold1_y_true.npy",
+        "y_score_npy": "/content/drive/MyDrive/LOGO_outputs/metrics_epi_clean/metrics/frac10_clean/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean/predictions/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean_frac10_clean_fold1_y_score.npy"
+      },
+      "learning_rate": 2e-05,
+      "dropout": 0.25,
+      "loss_name": "weighted_bce",
+      "monitor": "val_pr_auc",
+      "metrics": {
+        "loss": 1.263364553451538,
+        "acc": 0.5737704634666443,
+        "precision": 0.07500000298023224,
+        "recall": 0.6951219439506531,
+        "f1": 0.1340012550354004,
+        "auc": 0.6741967419674196,
+        "auprc": 0.08500025324096545,
+        "raw_list": [
+          1.263364553451538,
+          0.5737704634666443,
+          0.07500000298023224,
+          0.6951219439506531,
+          0.6741143465042114,
+          0.07844681292772293,
+          0.1340012550354004
+        ]
+      }
+    }
+  }
+}

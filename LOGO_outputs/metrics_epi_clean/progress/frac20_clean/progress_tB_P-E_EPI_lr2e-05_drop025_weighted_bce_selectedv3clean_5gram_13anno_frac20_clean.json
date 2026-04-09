@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-03-26 15:44:16",
+  "updated_at": "2026-03-26 17:20:46",
+  "completed_folds": [
+    0,
+    1
+  ],
+  "fold_results": {
+    "fold_0": {
+      "time": "2026-03-26 16:35:28",
+      "ckpt_path": "/content/drive/MyDrive/LOGO_outputs/checkpoints_epi_clean/frac20_clean/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean/best_model_tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean_frac20_clean_fold0.h5",
+      "prediction_paths": {
+        "y_true_npy": "/content/drive/MyDrive/LOGO_outputs/metrics_epi_clean/metrics/frac20_clean/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean/predictions/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean_frac20_clean_fold0_y_true.npy",
+        "y_score_npy": "/content/drive/MyDrive/LOGO_outputs/metrics_epi_clean/metrics/frac20_clean/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean/predictions/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean_frac20_clean_fold0_y_score.npy"
+      },
+      "learning_rate": 2e-05,
+      "dropout": 0.25,
+      "loss_name": "weighted_bce",
+      "monitor": "val_pr_auc",
+      "metrics": {
+        "loss": 1.5270166397094727,
+        "acc": 0.8316251635551453,
+        "precision": 0.1477079838514328,
+        "recall": 0.543749988079071,
+        "f1": 0.23099638521671295,
+        "auc": 0.7324942396313364,
+        "auprc": 0.20351852547449198,
+        "raw_list": [
+          1.5270166397094727,
+          0.8316251635551453,
+          0.1477079838514328,
+          0.543749988079071,
+          0.732046902179718,
+          0.19550660252571106,
+          0.23099638521671295
+        ]
+      }
+    },
+    "fold_1": {
+      "time": "2026-03-26 17:20:46",
+      "ckpt_path": "/content/drive/MyDrive/LOGO_outputs/checkpoints_epi_clean/frac20_clean/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean/best_model_tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean_frac20_clean_fold1.h5",
+      "prediction_paths": {
+        "y_true_npy": "/content/drive/MyDrive/LOGO_outputs/metrics_epi_clean/metrics/frac20_clean/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean/predictions/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean_frac20_clean_fold1_y_true.npy",
+        "y_score_npy": "/content/drive/MyDrive/LOGO_outputs/metrics_epi_clean/metrics/frac20_clean/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean/predictions/tB_P-E_EPI_lr2e-05_drop025_weighted_bce_selectedv3clean_frac20_clean_fold1_y_score.npy"
+      },
+      "learning_rate": 2e-05,
+      "dropout": 0.25,
+      "loss_name": "weighted_bce",
+      "monitor": "val_pr_auc",
+      "metrics": {
+        "loss": 1.3640156984329224,
+        "acc": 0.7475841641426086,
+        "precision": 0.09090909361839294,
+        "recall": 0.48750001192092896,
+        "f1": 0.1507653146982193,
+        "auc": 0.6950211213517665,
+        "auprc": 0.15237673138739039,
+        "raw_list": [
+          1.3640156984329224,
+          0.7475841641426086,
+          0.09090909361839294,
+          0.48750001192092896,
+          0.6949951648712158,
+          0.1496100127696991,
+          0.1507653146982193
+        ]
+      }
+    }
+  }
+}
